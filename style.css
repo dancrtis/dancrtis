@@ -1,0 +1,28 @@
+html, body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 680px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+a, a:visited {
+  color: blue;
+}
+
+h1 {
+  color: blanchedalmond;
+}
+
+footer {
+  font-size: 0.5rem;
+}
