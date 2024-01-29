@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
 html, body {
-  background-color: black;
+  background: linear-gradient(180deg, #F0EDEE 15%, #29A7FF 75%);
   color: white;
   font-family: monospace;
   font-size: 1.5rem;
+  padding: 0 12px;
 }
 
 body {
@@ -17,12 +20,20 @@ body {
 
 a, a:visited {
   color: blue;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:focus, a:hover {
+  text-decoration: underline;
+  outline: none;
 }
 
 h1 {
-  color: blanchedalmond;
+  color: black;
+  font-family: 'Instrument Serif', serif;
 }
 
-footer {
-  font-size: 0.5rem;
+p {
+  color: blanchedalmond;
 }
